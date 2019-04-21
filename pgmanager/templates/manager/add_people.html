@@ -1,0 +1,28 @@
+
+{% extends "manager/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<div class="w3-main" style="margin-left:50px;margin-top:80px;margin-right: 50px;">
+
+<div class="form-style-10">
+<h1><i class="fa fa-address-card fa-fw"></i>&nbsp;Enter People Details!<span>Plese verifi all data with a govermental ID card!</span></h1>
+<form method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">PG Peoples</legend>
+            {{ form|crispy }}
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <div class="button-section">
+     <input type="submit" name="Submit" />
+    </div>
+     <br>
+    </form>
+</div>
+<br>
+<br>
+
+{% endblock content %}
