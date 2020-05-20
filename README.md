@@ -15,6 +15,13 @@ Python Django Project on Paying Guest Management System
 - File import export
 
 
+## Built with 🏗
+
+- [Python](https://www.python.org/)
+- [Django](https://www.djangoproject.com/)
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+
+
 ## Setup 🚀
 
 Use your user-name, and password.....
