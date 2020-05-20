@@ -2,7 +2,7 @@
 
 Python Django Project on Paying Guest Management System
 
-![dashboard](images/admin_dashboard.png)
+![dashboard](admin_dashboard.png)
 
 
 ## Features 👀
