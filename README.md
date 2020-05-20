@@ -18,7 +18,6 @@ Python Django Project on Paying Guest Management System
 ## Setup 🚀
 
 Use your user-name, and password.....
-File: pg_project/pg_project/settings.py
-- [Link](pg_project/settings.py)
+File: pg_project/pg_project/settings.py     [Link](pg_project/settings.py)
 - EMAIL_HOST_USER = 'YOUR_GMAIL_USERNAME'
 - EMAIL_HOST_PASSWORD = 'YOUR_GMAIL_PASSWORD'
