@@ -23,8 +23,16 @@ Python Django Project on Paying Guest Management System
 
 
 ## Setup 🚀
-
-Use your user-name, and password.....
+### Clone: 
+  $ git clone https://github.com/GitHubAri/pg_project.git 
+### Setup Database:
+  Open XAMPP, and start Apache Serve </br>
+  Import DATABASE .db file
+### Run:
+  $ cd pg_project </br>
+  $ python manage.py runserver
+  
+### Use your user-name, and password.....
 File: pg_project/pg_project/settings.py     [Link](pg_project/settings.py)
 - EMAIL_HOST_USER = 'YOUR_GMAIL_USERNAME'
 - EMAIL_HOST_PASSWORD = 'YOUR_GMAIL_PASSWORD'
